@@ -1,4 +1,3 @@
-#pragma GCC diagnostic ignored "-Wformat"
 #include <cstdio>
 
 int main(int argc, char** argv)
