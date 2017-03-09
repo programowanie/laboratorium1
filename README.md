@@ -83,6 +83,8 @@ Samodzielnie wyświetl i wyjaśnij, co oznaczają wyniki poniższych operacji:
 
 ## 5. Tablice dynamiczne
 
+**[3]** Napisz program tworzący dynamiczną, dwuwymiarową tablicę liczb zmiennoprzecinkowych.
+
 ## 6. Flagi i łańcuchy formatujące
 
 - [http://www.cplusplus.com/reference/cstdio/printf/](http://www.cplusplus.com/reference/cstdio/printf/)
