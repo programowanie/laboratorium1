@@ -4,12 +4,15 @@
 
 ## 1. `Hello, World!`
 
-    #include <cstdio>
 
-    int main(int argc, char** argv)
-    {
-      printf("Hello, World!\n");
-    }
+```c++
+#include <cstdio>
+
+int main(int argc, char** argv)
+{
+  printf("Hello, World!\n");
+}
+```
 
 ## 2. Kompilacja z poziomu wiersza poleceń
 
@@ -23,17 +26,19 @@ Uruchomienie
 
 ## 3. Argumenty wiersza poleceń
 
+```c++
 #include <cstdio>
 
-    int main(int argc, char** argv)
-    {
-      printf("Licznik argumentów wynosi %i\n", argc);
-      for(int i=0 ; i<argc ; i++)
-      {
-        char* argument = argv[i];
-        printf("[%i] %s\n", i, argument);
-      }
-    }
+int main(int argc, char** argv)
+{
+  printf("Licznik argumentów wynosi %i\n", argc);
+  for(int i=0 ; i<argc ; i++)
+  {
+    char* argument = argv[i];
+    printf("[%i] %s\n", i, argument);
+  }
+}
+```
 
 
 ## 4. Wskaźniki i referencje
