@@ -47,13 +47,16 @@ int main(int argc, char** argv)
 
 ## 4. Wskaźniki i referencje
 
+Zadeklarowano następujące zmienne.
+
 ```c++
 int variable = 646;
 int* pointer = &variable;
 int& reference = variable;
 ```
 
-Wyjaśnij, jakie wartości pojawiają się na ekranie. Co dokładnie oznaczają?
+**[1]** Wyjaśnij, jakie wartości pojawiają się na ekranie. Co dokładnie oznaczają?
+
 ```c++
 printf("(a) %x | %i\n", variable, variable);
 printf("(b) %x | %i\n", &variable, &variable);
@@ -72,7 +75,7 @@ int* pointerA = table;
 int* pointerB = &table[2];
 ```
 
-Samodzielnie wyświetl i wyjaśnij, co oznaczają wyniki poniższych operacji:
+**[2]** Samodzielnie wyświetl i wyjaśnij, co oznaczają wyniki poniższych operacji:
 
 - `pointerA - pointerB`
 - `pointerB < pointerA`
@@ -83,8 +86,8 @@ Samodzielnie wyświetl i wyjaśnij, co oznaczają wyniki poniższych operacji:
 
 ## 5. Tablice dynamiczne
 
-**[3]** Napisz program tworzący dynamiczną, dwuwymiarową tablicę liczb zmiennoprzecinkowych.
+**[3]** Napisz program tworzący dynamiczną, dwuwymiarową, kwadratową tablicę liczb zmiennoprzecinkowych. Wymiar pobierz od użytkownika za pomocą argumentu wiersza poleceń ([atoi](http://www.cplusplus.com/reference/cstdlib/atoi/)). Tablicę wypełnij losowymi wartościami z zakresu *<-1,1>* ([rand](http://www.cplusplus.com/reference/cstdlib/rand/)). Wyświetl ją na ekranie. **Pamiętaj o zwolnieniu pamięci na koniec programu.**
 
 ## 6. Flagi i łańcuchy formatujące
 
-- [http://www.cplusplus.com/reference/cstdio/printf/](http://www.cplusplus.com/reference/cstdio/printf/)
+**[4]** Zmodyfikuj program tak, aby wyświetlać liczby z dokładnością do czterech miejsc po przecinku ([printf](http://www.cplusplus.com/reference/cstdio/printf/)).
