@@ -64,6 +64,23 @@ printf("(f) %x | %i\n", reference, reference);
 printf("(g) %x | %i\n", &reference, &reference);
 ```
 
+```c++
+int table[6];
+for(int i = 0 ; i < 6 ; i++) table[i] = i * 10;
+
+int* pointerA = table;
+int* pointerB = &table[2];
+```
+
+Samodzielnie wyświetl i wyjaśnij, co oznaczają wyniki poniższych operacji:
+
+- `pointerA - pointerB`
+- `pointerB < pointerA`
+- `++pointerA`
+- `pointerB - 1`
+- `table + 1`
+- `*(pointerA + 2)`
+
 ## 5. Tablice dynamiczne
 
 ## 6. Flagi i łańcuchy formatujące
